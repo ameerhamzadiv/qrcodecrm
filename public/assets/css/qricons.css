@@ -1,0 +1,576 @@
+
+.sprite {
+    background-image: url(../images/qricons/qr-shapes.png);
+    background-repeat: no-repeat;
+    display: block;
+    -ms-transform: scale(.76) translate(-5px, -5px);
+    -webkit-transform: scale(.76) translate(-5px, -5px);
+    transform: scale(.76) translate(-5px, -5px)
+}
+
+.sprite-body {
+    -ms-transform: scale(.5) translate(-48px, -39px);
+    -webkit-transform: scale(.5) translate(-48px, -39px);
+    transform: scale(.5) translate(-48px, -39px)
+}
+
+.sprite-ball-square {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -5px
+}
+
+.sprite-ball-outpoint {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -5px;
+    transform: rotateX(180deg) scale(0.76) translate(-5px, 4px);
+}
+
+.sprite-ball-inpoint {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -5px;
+    transform: rotateY(180deg) scale(0.76) translate(6px, -5px);
+}
+
+.sprite-ball10 {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -5px
+}
+
+.sprite-ball11 {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -5px
+}
+
+.sprite-ball12 {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -5px
+}
+
+.sprite-ball13 {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -5px
+}
+
+.sprite-ball-dot {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -5px
+}
+
+.sprite-ball-extra-rounded {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -5px
+}
+
+.sprite-ball-heart {
+    width: 50px;
+    height: 50px;
+    background-position: -487px -5px;
+}
+
+.sprite-ball17 {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -65px
+}
+
+.sprite-ball18 {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -65px
+}
+
+.sprite-ball19 {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -65px
+}
+
+.sprite-ball-classy {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -65px;
+    transform: rotateY(180deg) scale(0.76) translate(6px, -5px);
+}
+
+.sprite-ball3 {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -65px
+}
+
+.sprite-ball4 {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -65px
+}
+
+.sprite-ball-null {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -65px;
+}
+
+.sprite-ball6 {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -65px
+}
+
+.sprite-ball7 {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -65px
+}
+
+.sprite-ball8 {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -125px
+}
+
+.sprite-ball9 {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -125px
+}
+
+.sprite-dot {
+    width: 90px;
+    height: 80px;
+    background-position: -125px -125px
+}
+
+.sprite-horizontal-line {
+    width: 90px;
+    height: 80px;
+    background-position: -225px -125px
+}
+
+.sprite-vertical-line {
+    width: 90px;
+    height: 80px;
+    background-position: -325px -125px
+}
+
+.sprite-rounded {
+    width: 90px;
+    height: 80px;
+    background-position: -425px -125px
+}
+
+.sprite-extra-rounded {
+    width: 90px;
+    height: 80px;
+    background-position: -425px -125px
+}
+
+.sprite-diamond {
+    width: 90px;
+    height: 80px;
+    background-position: -5px -215px
+}
+
+.sprite-random-dot {
+    width: 90px;
+    height: 80px;
+    background-position: -105px -215px
+}
+
+.sprite-edge-cut {
+    width: 90px;
+    height: 80px;
+    background-position: -205px -215px
+}
+
+.sprite-edge-cut-smooth {
+    width: 90px;
+    height: 80px;
+    background-position: -305px -215px
+}
+
+.sprite-frame-square {
+    width: 50px;
+    height: 50px;
+    background-position: -525px -125px
+}
+
+.sprite-frame1 {
+    width: 50px;
+    height: 50px;
+    background-position: -525px -185px
+}
+
+.sprite-frame-inpoint {
+    width: 50px;
+    height: 50px;
+    background-position: -525px -185px;
+    transform: rotateY(180deg) scale(0.76) translate(6px, -5px);
+}
+
+.sprite-frame-outpoint {
+    width: 50px;
+    height: 50px;
+    background-position: -525px -185px;
+    transform: rotateX(180deg) scale(0.76) translate(-5px, 4px);
+}
+
+.sprite-frame10 {
+    width: 50px;
+    height: 50px;
+    background-position: -405px -245px
+}
+
+.sprite-frame11 {
+    width: 50px;
+    height: 50px;
+    background-position: -465px -245px
+}
+
+.sprite-frame-circle {
+    width: 50px;
+    height: 50px;
+    background-position: -525px -245px
+}
+
+.sprite-frame-extra-rounded {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -305px
+}
+
+.sprite-frame14 {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -305px
+}
+
+.sprite-frame15 {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -305px
+}
+
+.sprite-frame16 {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -305px
+}
+
+.sprite-frame-classy {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -305px;
+    transform: rotateY(180deg) scale(0.76) translate(6px, -5px);
+}
+
+.sprite-frame3 {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -305px
+}
+
+.sprite-frame4 {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -305px
+}
+
+.sprite-frame5 {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -305px
+}
+
+.sprite-frame6 {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -305px
+}
+
+.sprite-frame7 {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -365px
+}
+
+.sprite-frame8 {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -365px
+}
+
+.sprite-frame9 {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -365px
+}
+
+.sprite-japnese {
+    width: 90px;
+    height: 80px;
+    background-position: -185px -365px
+}
+
+.sprite-knob {
+    width: 90px;
+    height: 80px;
+    background-position: -285px -365px
+}
+
+.sprite-knob-smooth {
+    width: 90px;
+    height: 80px;
+    background-position: -385px -365px
+}
+
+.sprite-classy-rounded {
+    width: 90px;
+    height: 80px;
+    background-position: -485px -365px
+}
+
+.sprite-small-square {
+    width: 90px;
+    height: 80px;
+    background-position: -5px -455px
+}
+
+.sprite-pointed {
+    width: 90px;
+    height: 80px;
+    background-position: -105px -455px
+}
+
+.sprite-pointed-edge-cut {
+    width: 90px;
+    height: 80px;
+    background-position: -205px -455px
+}
+
+.sprite-pointed-in {
+    width: 90px;
+    height: 80px;
+    background-position: -305px -455px
+}
+
+.sprite-pointed-in-smooth {
+    width: 90px;
+    height: 80px;
+    background-position: -405px -455px
+}
+
+.sprite-pointed-smooth {
+    width: 90px;
+    height: 80px;
+    background-position: -545px -5px
+}
+
+.sprite-classy {
+    width: 90px;
+    height: 80px;
+    background-position: -585px -95px
+}
+
+.sprite-rounded-in {
+    width: 90px;
+    height: 80px;
+    background-position: -585px -185px
+}
+
+.sprite-rounded-in-smooth {
+    width: 90px;
+    height: 80px;
+    background-position: -585px -275px
+}
+
+.sprite-rounded-pointed {
+    width: 90px;
+    height: 80px;
+    background-position: -585px -365px
+}
+
+.sprite-square {
+    width: 90px;
+    height: 80px;
+    background-position: -505px -455px
+}
+
+.sprite-star {
+    width: 90px;
+    height: 80px;
+    background-position: -5px -545px
+}
+
+.sprite-logo {
+    background-image: url(../images/qricons/qr-logos.png);
+    background-repeat: no-repeat;
+    display: block;
+    -ms-transform: scale(.4) translate(-72px, -72px);
+    -webkit-transform: scale(.4) translate(-72px, -72px);
+    transform: scale(.4) translate(-72px, -72px)
+}
+
+.sprite-logo-appstore {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -5px
+}
+
+.sprite-logo-calendar {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -5px
+}
+
+.sprite-logo-calendar-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -5px
+}
+
+.sprite-logo-document {
+    width: 100px;
+    height: 100px;
+    background-position: -335px -5px
+}
+
+.sprite-logo-document-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -445px -5px
+}
+
+.sprite-logo-facebook {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -115px
+}
+
+.sprite-logo-facebook-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -115px
+}
+
+.sprite-logo-gmail {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -115px
+}
+
+.sprite-logo-google-play {
+    width: 100px;
+    height: 100px;
+    background-position: -335px -115px
+}
+
+.sprite-logo-googleplus-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -445px -115px
+}
+
+.sprite-logo-instagram-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -225px
+}
+
+.sprite-logo-linkedin-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -225px
+}
+
+.sprite-logo-phone-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -225px
+}
+
+.sprite-logo-pinterest-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -335px -225px
+}
+
+.sprite-logo-qrcodemonkey {
+    width: 100px;
+    height: 100px;
+    background-position: -445px -225px
+}
+
+.sprite-logo-share-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -335px
+}
+
+.sprite-logo-soundcloud-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -335px
+}
+
+.sprite-logo-twitter-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -335px
+}
+
+.sprite-logo-vimeo-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -335px -335px
+}
+
+.sprite-logo-vk-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -445px -335px
+}
+
+.sprite-logo-whatsapp-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -445px
+}
+
+.sprite-logo-wifi-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -445px
+}
+
+.sprite-logo-xing-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -445px
+}
+
+.sprite-logo-youtube {
+    width: 100px;
+    height: 100px;
+    background-position: -335px -445px
+}
+
+.sprite-logo-youtube-circle {
+    width: 100px;
+    height: 100px;
+    background-position: -445px -445px
+}
+
+.sprite-logo-bitcoin {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -555px
+}
