@@ -39,7 +39,7 @@ pipeline {
                     Write-Host "Deploying build folder to FTP..."
 
                     $ftp = "ftp://$env:FTP_USER:$env:FTP_PASS@$env:FTP_HOST"
-                    $localPath = "build/*"
+                    $localPath = "build"
                     $remotePath = "/"
 
                     Write-Host "Connecting to $ftp"
@@ -47,7 +47,7 @@ pipeline {
                     $webclient = New-Object System.Net.WebClient
                     Get-ChildItem -Recurse build | ForEach-Object {
                         $relativePath = $_.FullName.Substring((Get-Location).Path.Length + 1)
-                        $remoteFile = "$ftp/$relativePath" -replace "\\", "/"
+                        $remoteFile = "$ftp/$relativePath" -replace "\\\\", "/"
                         $dir = Split-Path $remoteFile
                         try { $webclient.UploadFile($remoteFile, "STOR", $_.FullName) } catch { Write-Host "Failed: $relativePath" }
                     }
