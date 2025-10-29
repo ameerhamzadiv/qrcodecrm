@@ -7,8 +7,6 @@ pipeline {
 
     environment {
         FTP_HOST = '154.53.50.45'
-        FTP_USER = 'qrcode@qrcode.devhostest.com'
-        FTP_PASS = 'g$Q#o5QJ]D9YwkE['
         FTP_PATH = '/' // adjust your cPanel subdomain path
     }
 

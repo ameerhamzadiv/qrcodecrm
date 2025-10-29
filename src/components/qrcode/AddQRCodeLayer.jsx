@@ -2351,20 +2351,7 @@ const updateStyle = (propPath, value) => {
                                         
 
 
-                                        <div className="d-flex align-items-center justify-content-center gap-3">
-                                            <button
-                                                type="button"
-                                                className="border border-danger-600 bg-hover-danger-200 text-danger-600 text-md px-56 py-11 radius-8"
-                                            >
-                                                Cancel
-                                            </button>
-                                            <button
-                                                type="submit"
-                                                className="btn btn-primary border border-primary-600 text-md px-56 py-12 radius-8"
-                                            >
-                                                Save
-                                            </button>
-                                        </div>
+                                        
                                     </form>
                                 </div>
                             </div>
@@ -2379,7 +2366,7 @@ const updateStyle = (propPath, value) => {
                                         type="button"
                                         className="btn btn-primary-600 px-12 py-6 text-sm mt-1">
 
-                                        Add New Source <Icon
+                                        Download <Icon
                                             icon="material-symbols:download-rounded"
                                             className="icon text-xl line-height-1"
                                         />

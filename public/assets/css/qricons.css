@@ -344,6 +344,12 @@
     background-position: -5px -455px
 }
 
+.sprite-tiny-square {
+    width: 90px;
+    height: 80px;
+    background-position: -5px -545px;
+}
+
 .sprite-pointed {
     width: 90px;
     height: 80px;
