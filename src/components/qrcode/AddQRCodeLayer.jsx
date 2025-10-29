@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react/dist/iconify.js';
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import  { QRCodeStyling, browserUtils } from '@liquid-js/qr-code-styling'
 
 
@@ -496,7 +496,7 @@ const AddQRCodeLayer = () => {
    
 
     // ---------- content‑string builder ----------
-    const buildData = () => {
+    const buildData = useCallback(() =>  {
         switch (contentType) {
             case "URL":
                 return contentFields.url || "";
@@ -532,7 +532,7 @@ const AddQRCodeLayer = () => {
             default:
                 return "";
         }
-    };
+    }, [contentType, contentFields]);
 
 
 
@@ -559,7 +559,7 @@ useEffect(() => {
             qrRef.current.innerHTML = "<p style='color:red;'>QR generation failed. Please try again.</p>";
         }
     }
-}, [qrConfig, contentFields, contentType]);
+}, [qrConfig, contentFields, contentType, buildData]);
 
 
 
