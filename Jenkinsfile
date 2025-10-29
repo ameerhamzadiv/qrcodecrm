@@ -19,20 +19,20 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'npm install'
+                bat 'npm install'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'npm run build'
+                bat 'npm run build'
             }
         }
 
         stage('Deploy to cPanel via FTP') {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'cpanel-ftp', usernameVariable: 'FTP_USER', passwordVariable: 'FTP_PASS')]) {
-                    sh '''
+                    bat '''
                     echo "Installing lftp..."
                     apt-get update -y
                     apt-get install -y lftp
