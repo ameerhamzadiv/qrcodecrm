@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         FTP_HOST = '154.53.50.45'
-        FTP_PATH = '/' // adjust your cPanel subdomain path
+        FTP_PATH = '/'
     }
 
     stages {
